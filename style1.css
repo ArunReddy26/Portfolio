@@ -1,0 +1,326 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;900&family=Poppins&display=swap');
+ *{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+ }
+ body{
+    background: #eff4fd;
+
+ }.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    font-weight: 600;
+
+}
+/*body{
+    width: 100vw;
+    min-height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+*/
+.container{
+    position: relative;
+    right: 100px;
+
+}
+.logo{
+    padding-left: 30px;
+    color: black;
+    text-decoration: none;
+
+}
+.header-content{
+    margin: 1.5em;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.container a:hover{
+    background:burlywood;
+}
+
+
+.Name{
+    display: flex;
+    min-height: 80vh;
+    width: 100%;
+}
+.First{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.First img{
+    border: 12px solid rgb(41, 34, 86);
+    border-radius: 50px;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second h1{
+    font-size:xx-large;
+    color: black;
+}
+.second h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: large;
+    color:black;
+}
+.second button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 40px;
+    height: 30px;
+    background: #1E90FF;
+    color: white;
+    width: 100px;
+    transition: all 0.4s;
+}
+button:hover{
+    transform: scale(1.2);
+
+}
+
+
+
+
+
+.container2{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    width: 100%;
+    height: 550px;
+    max-width: 820px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0,.4);
+}
+.contact{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.contact img{
+    width: 30%;
+    padding-bottom: 30px;
+}
+.first-text{
+    padding-left:20px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.social-links span{
+    font-size: 25px;
+}
+.social-media{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+ul li{
+    padding: 5px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.social-media li i{
+    padding: 5px;
+    border-radius: 5px;
+}
+.social-media li i:hover{
+    background:burlywood;
+}
+
+
+.section{
+    width:100%;
+    min-height:100vh;
+}
+.one{
+    width:80%;
+    display:block;
+    margin: auto;
+    padding-top: 100px;
+}
+.content-section{
+    padding-top: 50px;
+    float:left;
+    width:55%;
+}
+
+.content-section .title{
+    margin-left: 25px;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+.content-section .content p{
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 18px;
+}
+.button{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.content button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 40px;
+    height: 30px;
+    background: #1E90FF;
+    color: white;
+    width: 100px;
+}
+.content button:hover{
+    transform: scale(1.2);
+}
+.social{
+    margin-top: 40px;
+    display: flex;
+    letter-spacing: 1rem;
+    justify-content: center;
+}
+.social a{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.social i:hover{
+    background:burlywood;
+}
+.image-section{
+    padding-top: 40px;
+    padding-left:40px;
+
+}
+.image-section img{
+    border: 12px solid rgb(41, 34, 86);
+    border-radius: 50px;
+}
+
+
+
+
+.container3{
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    width: 550px;
+    background: white;
+    border-radius: 10px;
+    padding: 15px 30px;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0,.4);
+}
+
+.container3 h1{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.container3 .skill{
+    margin-bottom: 30px;
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+.container3 .skill h1{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.container3 .skill h4{
+    line-height: 0;
+    float: right;
+}
+
+/*.container3 .skill .fill-bar{
+    position: absolute;
+    top: 30px;
+    background:#d61818;
+    left: 0;
+    height: 17px;
+    border-radius: 15px;
+}*/
+
+.container3 .skill .fill-bar-html{
+    position: absolute;
+    top: 30px;
+    background:#d61818;
+    left: 0;
+    height: 17px;
+    border-radius: 15px;
+    width: 90%;
+
+}
+.container3 .skill .fill-bar-css{
+    position: absolute;
+    top: 30px;
+    background:#d61818;
+    left: 0;
+    height: 17px;
+    border-radius: 15px;
+    width: 80%;
+
+}
+.container3 .skill .fill-bar-javascript{
+    position: absolute;
+    top: 30px;
+    background:#d61818;
+    left: 0;
+    height: 17px;
+    border-radius: 15px;
+    width: 10%;
+
+}
+.container3 .skill .fill-bar-datastructures{
+    position: absolute;
+    top: 30px;
+    background:#d61818;
+    left: 0;
+    height: 17px;
+    border-radius: 15px;
+    width: 60%;
+
+}
+.container3 .skill .fill-bar-java{
+    position: absolute;
+    top: 30px;
+    background:#d61818;
+    left: 0;
+    height: 17px;
+    border-radius: 15px;
+    width: 75%;
+}
+
+
+
+
+
+
